@@ -1,0 +1,207 @@
+/* configuração default */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+	
+}
+a{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: white;
+}
+
+body{
+	background-image: radial-gradient( circle 2000px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );
+	color: white;
+
+
+}
+
+/* fim configuração Default */
+
+/*Navegação começo*/
+nav{
+	
+	height: 80px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	height: 80px;
+
+}
+li{
+	display: inline-block;
+	margin: auto 0;
+	padding: 2% 2%;
+	
+}
+
+/* Navegação fim */
+
+/*Conteúdo começo*/
+
+div#conteudo{
+	margin-top: 100px;
+	border: 1px solid red;
+	width: 80%;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	display: flex;
+
+}
+div.imagens{
+	width: 300px;
+	height: 400px;
+	align-items: center;
+	display: column;
+
+}
+
+
+img.perfil{
+	top:20px;
+	display: block;
+	margin: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	
+
+
+}
+
+div.imagens2{
+	width: 300px;
+	height: 100px;
+	align-items: center;
+	display: flex;
+	justify-content: end;
+	margin-top: 20px;
+}
+
+
+img.perfil1{
+	width: 40px;
+	margin: auto;
+
+}
+
+div.conteudo-info{
+	border: 1px solid red;
+	float: right;
+	width: 800px;
+	height: 400px;
+	margin: auto;
+	align-items: center;
+
+
+}
+div.conteudo-info > h1{
+	padding: 10px;
+	
+}	
+
+
+
+/*Conteúdo fim*/
+/*projetos começo*/
+
+div#projetos{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: 1px solid red;
+	width: 80%;
+	height: 500px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	float: right;
+	
+}
+
+div.cards{
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin: 30px;
+	margin-top: 40px;
+	align-items: center;
+	background: white;
+	cursor: pointer;
+	color: black;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	
+	
+	
+}
+
+
+
+img.img-cards{
+	margin: 0;
+	padding: 0;
+	width: 300px;
+	height: 300px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	
+}
+div.cards > h4{
+	padding: 5px;
+}
+
+div.cards > p{
+	padding: 5px;
+}
+
+
+
+
+/*projetos fim */
+/*rodapé*/
+
+div#rodape{
+	border: 1px solid red;
+	width: 100%;
+	height: 90px;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	clear: both;
+	justify-content: center;
+	display: flex;
+
+
+
+	
+
+}
+div.img-links{
+	width: 30%;
+	height: 100%;
+	justify-content: space-around;
+	display: flex;
+	margin-top: 10px;
+}
+
+
+/*fim rodapé*/
