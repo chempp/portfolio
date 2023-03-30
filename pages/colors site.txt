@@ -1,0 +1,9 @@
+colors site 
+
+#0A192F backgrond
+
+#64FFDA  destaques
+
+#CCD6F6 textos destaques
+
+#8892B0 textos normais 

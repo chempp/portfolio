@@ -1,0 +1,391 @@
+
+/* Começo Defalt config*/
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	color: #CCD6F6;
+	list-style: none;
+
+}
+
+
+body{
+	background-color: #0A192F;
+	font-family: Georgia, serif;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	
+	
+}
+
+/* Começo Defalt config*/
+
+
+/* Começo da Nav*/
+
+nav{
+	width: 100vw;
+	height: 100px;
+	display: flex;
+	position: fixed;
+	backdrop-filter: blur(2px);
+	
+}
+
+div.name{
+	width: 50vw;
+	display: flex;
+	align-items: center;
+	margin-left: 10vw;
+	font-size: 1.4em;
+	
+}
+
+
+ul{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 50vw;
+	
+	
+}
+li>a{
+	font-size: 1.5em;
+
+}
+
+ li >a{
+	color: #64FFDA;
+}
+ li > a:hover{
+	font-size: 2.2em;
+	transition: 0.5s;
+}
+
+a > span:hover{
+	color: #64FFDA;
+	
+}
+
+/* Fim da Nav*/
+
+/* Começo da div Conteudo*/
+
+div#conteudo{
+	height: 80vh;
+	width: 100vw;
+	margin-top: 100px;
+	display: flex;
+}
+
+div.imagem-perfil{
+	width: 30vw;
+	height: 100%;
+	
+	
+}
+div.imagem-perfil > img{
+	width: 300px;
+	height: 300px;
+	display: flex;
+	margin: auto;
+	border-radius: 50%;
+
+	
+}
+.imagens-code{
+	margin: 10px;
+	display:flex;
+	justify-content: space-between;
+	
+	
+
+
+}
+.imagens-code>img{
+	width: 50px;
+	height: 50px;
+	transition: 0.5s;
+	cursor: pointer;
+	
+	
+
+}
+.imagens-code>img:hover{
+	width: 60px;
+	height: 60px;
+	transition: 0.5s;
+
+	
+	
+}
+
+div.conteudo-info{
+	width: 70vw;
+	padding: 20px;
+	
+}
+div.conteudo-info > p{
+	color: #64FFDA;
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+div.conteudo-info > h1{
+	font-size: 4.0em;
+	font-weight: bold;
+}
+
+.titulo-info{
+	padding: 10px;
+	margin: 5px;
+	width: 550px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-resumo{
+	height: 450px;
+	
+}
+
+.info-resumo > h4 + p{
+	margin: 10px;
+}
+
+
+/*Começo curriculo*/
+div#conteudo-info{
+	border: 1px solid red;
+	height: 1200px;
+	margin: 100px ;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+#conteudo-info > div.imagem-perfil{
+	height: 400px;
+	margin-top: 0px;
+}
+#conteudo-info > div{
+	border: 1px solid red;
+	margin: auto;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+#conteudo-info > div.conteudo-info{
+	margin: 10px auto;
+	display: grid;
+	
+	
+}
+
+/* buttom Download*/
+
+div.button{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	border: 1px solid red;
+}
+.button button{
+	background-color: #64FFDA;
+	cursor: pointer;
+	height: 50px;
+	width: 100px;
+	border-radius: 10%;
+	border: none;
+}
+.button a:hover{
+	transition: 0.5s;
+	margin-bottom: -5px;
+}
+
+.button a button img {
+	width: 40px;
+	
+}
+
+
+
+
+
+/* buttom Download fim*/
+
+
+/*Começo curriculo*/
+/* Fim da div Conteudo*/
+
+
+/* Começo da div projetos*/
+
+div#projetos{
+	width: 100vw;
+	height: 81vh;
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+
+div.textos-projetos{
+	height: 200px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+.textos-projetos > h2{
+	font-size: 4.0em;
+}
+.textos-projetos > p{
+	margin-top: -100px;
+}
+
+.slide{
+	margin: 0 auto;
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+}
+
+.slides{
+	width: 400%;
+	height: 400px;
+	display: flex;
+}
+
+.slides input{
+	display: none;
+}
+
+.slide-img{
+	width: 25%;
+	position: relative;
+}
+
+.slide img{
+	width: 800px;
+}
+
+.manual-navigation{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+
+.manual-btn{
+	border: 2px solid #CCD6F6;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+	margin-right: 10px;
+}
+
+.manual-btn:hover{
+	background-color: #CCD6F6;
+}
+
+
+#radio1:checked ~ .frist{
+	margin-left: 0;
+}
+#radio2:checked ~ .frist{
+	margin-left: -25%;
+}
+#radio3:checked ~ .frist{
+	margin-left: -50%;
+}
+#radio4:checked ~ .frist{
+	margin-left: -75%;
+}
+
+.navigation-auto{
+	position: absolute;
+	width: 800px;
+	margin-top: 360px;
+	display: flex;
+	justify-content: center;
+}
+.navigation-auto div:not(:last-child){
+	margin-right: 10px;
+}
+
+.navigation-auto div{
+	border: 2px solid #64FFDA;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+	background-color: #64FFDA;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+	background-color: #64FFDA;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+	background-color: #64FFDA;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+	background-color: #64FFDA;
+}
+/* Fim da div projetos*/
+
+/* Começo do Footer*/
+
+footer{
+	margin-top: 50px;
+	width: 100vw;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+}
+
+
+div.footer-left {
+	width: 50%;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.footer-left > span{
+	margin: 10px;
+	font-weight: bold;
+}
+
+div.footer-right{
+	width: 50%;
+	height: 80px;
+	display: flex;
+	justify-content:flex-end;
+	align-items: center;
+}
+
+.footer-right > a > img{
+	width: 50px;
+	height: 50px;
+	margin-right: 40px ;
+}
+/* Fim do Footer*/
