@@ -1,5 +1,7 @@
 // slide começo
-/*
+import{useState} from 'react'
+
+
 let count = 1;
 document.getElementById('radio1').checked = true;
 
@@ -32,6 +34,6 @@ function abriJanela(){
     janela = window.open('http://127.0.0.1:5500/Portifólio/começo/Pdf/Profile.pdf', 'nova janela')
 }
 
-*/
+
 
 //Fim button curriculo
